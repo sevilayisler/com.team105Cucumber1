@@ -26,5 +26,7 @@ public class QualitydemyPage {
     @FindBy(linkText = "My courses")
     public WebElement basariliGirisCoursesLinki;
 
+    @FindBy(linkText = "Accept")
+    public WebElement qdCookiesAcceptButton;
 
 }
